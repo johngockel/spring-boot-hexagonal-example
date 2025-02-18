@@ -13,6 +13,7 @@
     <module>persistence-adapter</module>
     <module>module-a</module>
     <module>module-b</module>
+    <module>module-a-b-adapter</module>
   </modules>
 
   <properties>
@@ -42,6 +43,11 @@
       <dependency>
         <groupId>de.johngockel.hexagonal.example</groupId>
         <artifactId>module-b</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>de.johngockel.hexagonal.example</groupId>
+        <artifactId>module-a-b-adapter</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
